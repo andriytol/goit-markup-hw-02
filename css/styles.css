@@ -1,5 +1,7 @@
 body {
+    color: #212121;
     font-family: 'Roboto';
+    font-size: 14px;
 }
 
 /* ------------------------------------------------------header */
@@ -8,13 +10,17 @@ header {
 }
 
 .icon {
-    color: #2196F3;
+    color: #000000;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: calc(31/26);
+    line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
+}
+
+span {
+    color: #2196F3;
 }
 
 .list {
@@ -23,10 +29,8 @@ header {
 
 .item {
     color: #212121;
-    font-family: 'Roboto';
     font-weight: 500;
-    font-size: 14px;
-    line-height: calc(16/14);
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
@@ -41,10 +45,8 @@ header {
 
 .link {
     color: #757575;
-    font-family: 'Roboto';
     font-weight: 500;
-    font-size: 14px;
-    line-height: calc(16/14);
+    line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
@@ -66,7 +68,7 @@ h1 {
     color: #ffffff;
     font-weight: 900;
     font-size: 44px;
-    line-height: calc(60/44);
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -75,10 +77,10 @@ h1 {
 button {
     color: #FFFFFF;
     background-color: #2196F3;
-    font-family: 'Roboto';
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
-    line-height: calc(30/16);
+    line-height: 1.88;
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
@@ -86,7 +88,7 @@ button {
 
 /* ------------------------------------------------------section-two */
 .section-two {
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
 }
 
 .section-two-list {
@@ -94,10 +96,8 @@ button {
 }
 
 .section-two-title {
-    color: #212121;
     font-weight: 700;
-    font-size: 14px;
-    line-height: calc(16/14);
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -105,21 +105,19 @@ button {
 .section-two-text {
     color: #757575;
     font-weight: 400;
-    font-size: 14px;
-    line-height: calc(24/14);
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
 /* ------------------------------------------------------section-three */
 .section-three {
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
 }
 
 .section-three-title {
-    color: #212121;
     font-weight: 700;
     font-size: 36px;
-    line-height: calc(42/36);
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -139,10 +137,9 @@ button {
 }
 
 .section-four-title {
-    color: #212121;
     font-weight: 700;
     font-size: 36px;
-    line-height: calc(42/36);
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -157,18 +154,19 @@ button {
 }
 
 .name {
-    color: #212121;
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
-    line-height: calc(19/16);
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
 .profession {
+    font-family: 'Roboto';
     color: #757575;
     font-weight: 400;
     font-size: 16px;
-    line-height: calc(19/16);
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
@@ -183,26 +181,57 @@ footer {
 
 .address {
     color: #FFFFFF;
+    font-style: normal;
+    font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
-    line-height: calc(24/14);
+    line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
 
 .mail {
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
-    line-height: calc(24/14);
+    line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
+
 .tel {
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
-    line-height: calc(24/14);
+    line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
+}
+
+.address:hover {
+    color: #2196F3;
+}
+
+.address:focus {
+    color: #2196F3;
+}
+
+.mail:hover {
+    color: #2196F3;
+}
+
+.mail:focus {
+    color: #2196F3;
+}
+
+.tel:hover {
+    color: #2196F3;
+}
+
+.tel:focus {
+    color: #2196F3;
 }
