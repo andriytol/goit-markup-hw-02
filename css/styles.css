@@ -235,3 +235,48 @@ footer {
 .tel:focus {
     color: #2196F3;
 }
+
+/* ------------------------------------------------------portfolio */
+
+.portfolio-list {
+    list-style: none;
+}
+
+.portfolio-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.portfolio-item:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.portfolio-image-list {
+    list-style: none;
+}
+
+.portfolio-image {
+    width: 370px;
+    height: 294px;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.portfolio-title-two {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
