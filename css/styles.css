@@ -23,6 +23,10 @@ span {
     color: #2196F3;
 }
 
+.webstudio {
+    color: #FFFFFF;
+}
+
 .list {
     list-style: none;
 }
@@ -154,7 +158,6 @@ button {
 }
 
 .name {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -162,9 +165,7 @@ button {
 }
 
 .profession {
-    font-family: 'Roboto';
     color: #757575;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -204,8 +205,6 @@ footer {
 .tel {
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
-    font-family: 'Roboto';
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -243,12 +242,15 @@ footer {
 }
 
 .portfolio-item {
+    color: #212121;
+    background-color: #ffffff;
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    
 }
 
 .portfolio-item:hover {
@@ -274,7 +276,6 @@ footer {
 }
 
 .portfolio-title-two {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
