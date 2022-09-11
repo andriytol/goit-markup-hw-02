@@ -4,6 +4,9 @@ body {
     font-size: 14px;
 }
 
+:root {
+    --acent: #2196F3;
+  }
 /* ------------------------------------------------------header */
 header {
     background-color: #ffffff;
@@ -37,6 +40,10 @@ span {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+}
+
+.current {
+    color: var(--acent);
 }
 
 .item:hover {
